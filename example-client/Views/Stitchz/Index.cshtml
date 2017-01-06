@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div>
+    <div>
+        @Html.ActionLink("Get Settings", "GetSettings")
+    </div>
+    <div>
+        @Html.ActionLink("Get Login Totals", "GetLoginTotals")
+    </div>
+    <div>
+        @Html.ActionLink("Get Followers", "GetFollowers")
+    </div>
+    <div>
+        @Html.ActionLink("Get Activities", "GetActivities")
+    </div>
+</div>
